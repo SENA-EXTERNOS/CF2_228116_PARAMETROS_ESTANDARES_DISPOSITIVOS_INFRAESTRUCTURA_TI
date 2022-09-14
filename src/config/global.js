@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Ajustar los parámetros y estándares de los dispositivos de la infraestructura T.I.',
+    descripcionCurso:
+      'En esta área se conforman los parámetros y normas que complementan todos los dispositivos que se describen en la infraestructura tecnológica T.I. Teniendo en cuenta el plan de contingencia que describe el diseño y uso para los centros de datos, como utilizar las características de la computación en la nube y la gestión de redes y computadores. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -32,14 +34,22 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Funcionamiento del centro de datos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Centro de datos',
             hash: 't_1_1',
+            subMenu: [
+              {
+                icono: 'far fa-file-alt',
+                numero: '1.1',
+                titulo: 'lo que sea',
+                hash: 't_1_1',
+              },
+            ],
           },
         ],
       },
@@ -48,14 +58,21 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Plan de Contingencia',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Cadena de custodia',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Gestión de redes de computadoras y recursos tecnológicos',
         desarrolloContenidos: true,
       },
     ],
