@@ -42,14 +42,13 @@ export default {
             numero: '1.1',
             titulo: 'Centro de datos',
             hash: 't_1_1',
-            subMenu: [
-              {
-                icono: 'far fa-file-alt',
-                numero: '1.1',
-                titulo: 'lo que sea',
-                hash: 't_1_1',
-              },
-            ],
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo:
+              'Infraestructura y Componentes del software para centro de datos',
+            hash: 't_1_2',
           },
         ],
       },
@@ -118,32 +117,81 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Introducción a la Informática hardware y software.',
+      referencia:
+        '(S/f). Edu.ar. Recuperado el 18 de agosto de 2022, de https://economicas.unsa.edu.ar/sigeco/archivos/semi_material/U1-DT-IntroduccionalaInformatica.pdf.',
+      tipo: 'APA',
+      link:
+        'https://economicas.unsa.edu.ar/sigeco/archivos/semi_material/U1-DT-IntroduccionalaInformatica.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'DOCUMENTO - VERSIÓN ACTUALIZADA DEL MODELO DE GESTIÓN IT4+',
+      referencia: 'DOCUMENTO - VERSIÓN ACTUALIZADA DEL MODELO DE GESTIÓN IT4+',
+      tipo: 'Norma, artículo, manual.',
+      descarga:
+        'https://www.mintic.gov.co/arquitecturati/630/propertyvalues-8170_documento_pdf.pdf',
+    },
+    {
+      tema: 'Data Center una mirada por dentro.',
+      referencia:
+        '(S/f-c). Researchgate.net. Recuperado el 18 de agosto de 2022, de https://www.researchgate.net/publication/282611136_DATACENTER_-_UNA_MIRADA_POR_DENTRO',
+      tipo: 'Norma, artículo, manual.',
+      descarga:
+        'https://www.researchgate.net/publication/282611136_DATACENTER_-_UNA_MIRADA_POR_DENTRO',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Contingencia',
+      significado: 'Se asocia a la posibilidad de que una acción suceda o no',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Data Center',
+      significado:
+        'Centro de proceso de información. Lugar físico donde se guardan los datos e información relevante.',
+    },
+    {
+      termino: 'DNS',
+      significado: 'Sistema de nombre de dominios.',
+    },
+    {
+      termino: 'Firewalls',
+      significado: 'Sistema diseñado para proteger redes privadas.',
+    },
+    {
+      termino: 'LAN',
+      significado: 'Red de área local.',
+    },
+    {
+      termino: 'Racks',
+      significado:
+        'Soportes metálicos para guardar y almacenar centros de información.',
+    },
+    {
+      termino: 'RRHH',
+      significado: 'Recursos Humanos.',
+    },
+    {
+      termino: 'Salvaguardar',
+      significado: 'Salvaguardar	Proteger algo que requiera protección.',
+    },
+    {
+      termino: 'Telnet',
+      significado: 'Telnet	Servidor utilizado para las telecomunicaciones.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        '(S/f-a). Researchgate.net. Recuperado el 18 de agosto de 2022',
+      link:
+        'https://www.researchgate.net/publication/282611136_DATACENTER_-_UNA_MIRADA_POR_DENTRO',
+    },
+    {
+      referencia:
+        'PROCEDIMIENTO PARA REALIZAR EL RESPALDO DE INFORMACIÓN SIGUIENDO LAS BUENAS PRÁCTICAS EN. (s/f-b). Edu.co. Recuperado el 18 de agosto de 2022',
+      link:
+        'https://repository.ucatolica.edu.co/bitstream/10983/860/2/PROCEDIMIENTO%20PARA%20REALIZAR%20EL%20RESPALDO%20DE%20INFORMACI%C3%93N%20SIGUI.p',
     },
   ],
   creditos: {

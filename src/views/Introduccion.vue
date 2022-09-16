@@ -23,14 +23,14 @@
         .row
           .col-lg-8
             p Se desarrollará la capacidad de establecer las conexiones y componentes según las especificaciones técnicas y los marcos de referencia, verificando la seguridad de la infraestructura tecnológica, comprendida por los modelos, estándares y normativa de la seguridad, que serán implementados en el centro de datos acorde con la infraestructura requerida. Finalizando con la cuantificación de los riesgos para cumplir con las características del servicio T.I reconociendo las variaciones de ejecución del centro de datos, de acuerdo con el desarrollo del proceso.
-            p Lo invitamos a ver el siguiente video donde se amplía la información de este componente formativo.
+            p.text-black Lo invitamos a ver el siguiente video donde se amplía la información de este componente formativo.
           .col-lg-4
             figure(data-aos="fade-left")
               img(src="@/assets/curso/introduccion/intro-img-decorativa-1.svg", alt="Texto que describa la imagen")
 
     .row.justify-content-around.aling-items-center
       .col-lg-10.mb-lg-0.mt-lg-5
-        figure.mb-5.mt-5
+        figure.mb-5
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
   
