@@ -7,11 +7,11 @@
         span 2
       h1 Plan de Contingencia
     figure
-      img(src="@/assets/curso/temas/tema2/tema2-img-01.svg", alt="Texto que describa la imagen").mb-4
+      img(src="@/assets/curso/temas/tema2/tema2-img-01.svg", alt="Texto que describa la imagen")
 
     .row.justify-content-around.aling-items-center.mb-5
       .col-lg-8
-        .cajon.color-secundario.estiloNuevo.p-4
+        .cajon.color-secundario.p-4
           p Son conjuntos de procedimientos alternativos a la operatividad de cada empresa u organización. Su principal objetivo es permitir el funcionamiento de la organización, especialmente cuando algunas de las funciones no se ejecutan por fallas internas. 
     
     img(src="@/assets/curso/temas/tema2/tema2-img-decorativa-01.svg", alt="Texto que describa la imagen").tema2-decorativa-01
