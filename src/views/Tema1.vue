@@ -9,7 +9,7 @@
   
       //- .titulo-segundo debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    .titulo-segundo.color-primario.mt-5
+    #t_1_1.titulo-segundo.color-primario.mt-5
       h2 1.1  Funcionamiento del centro de datos     
     .row.justify-content-around.aling-items-center.mt-5
       .col-lg-7        
@@ -49,28 +49,28 @@
         p.mt-4.mb-4 Existen diferentes características que conforman el data center o centro de datos: 
 
         .row.justify-content-center.mb-3
-            .col-6
-              .crd.crd--avatarHorizontal.crd--first.clr--paleBlue.py-4
+            .col-lg-6.position-relative
+              .crd.crd--avatarHorizontal.py-4
                 .row.align-items-center
                   .col-auto
                     figure
-                      img(src="@/assets/curso/temas/tema1/tema1-img-t-01.svg", alt="alt")
+                      img(src="@/assets/curso/temas/tema1/tema1-img-t-01.svg", alt="alt").img100
                   .col
                     h5 Seguridad
                     p En todo modelo de negocio o adquisición de la información los datos son el soporte fundamental en esta era digital, por tal razón, es importante garantizar la seguridad de la información que se encuentra tan vulnerable en el internet. Por otra parte, hay otros factores como por ejemplo, aplicar medidas de protección que sean implementadas en el entorno físico, ejemplo utilizando la biometría, controles de acceso entre otros.
-            .col-6
-              .crd.clr--paleBlue.p-4.mb-4
+            .col-lg-6.position-relative
+              .crd.crd--avatarHorizontal.py-4
                 .row.align-items-center
                   .col-auto
                     figure
                      img(src="@/assets/curso/temas/tema1/tema1-img-t-02.svg", alt="alt").img100
-                  .col
+                  .col-8
                     h5 Refrigeración
                     p Para la ubicación de los data centers es importante que sean ubicados en un lugar que no sean expuestos al polvo, altas temperaturas. Estos detalles permiten un mayor rendimiento posible del centro de datos. Por esta razón, el sistema de refrigeración debe ser óptimo evitando altas temperaturas que reduzcan la vida útil del sistema. 
 
-        .row.justify-content-center.mb-5
-            .col-6
-              .crd.clr--paleBlue.p-4.mb-4
+        .row.justify-content-center.mb-3
+            .col-lg-6.position-relative
+              .crd.crd--avatarHorizontal.py-4
                 .row.align-items-center
                   .col-auto
                     figure
@@ -78,8 +78,8 @@
                   .col
                     h5 Capacidad de almacenamiento
                     p Cada vez se obtienen más datos y en las empresas se necesita brindar soluciones por tal razón es necesario guardar más información, debido a esto cada día se necesita mayor almacenamiento con mayor capacidad. Gracias a los aportes tecnológicos las empresas necesitan diferentes espacios de almacenamiento que permitan guardar la información sin limitaciones.
-            .col-6
-              .crd.clr--paleBlue.p-4.mb-4
+            .col-lg-6.position-relative
+              .crd.crd--avatarHorizontal.py-4
                 .row.align-items-center
                   .col-auto
                     figure
@@ -87,7 +87,9 @@
                   .col
                     h5 Transferencia de datos
                     p Es muy importante a la hora de enviar o recibir información sea de manera rápida. Por esta razón, es importante que la transferencia de datos se realice con mayor velocidad de esta forma se masifica la accesibilidad a la información. Permitiendo transportar de una forma eficiente toda la información a diferentes dispositivos de visualización.
-    Separador
+    
+    h4.mt-4.mb-5 Componentes
+
     .row.justify-content-around.aling-items-center.mt-5
       .col-lg-10
         .row
@@ -135,8 +137,8 @@
             figure
               img(src='@/assets/curso/temas/tema1/tema1-img-06.svg', alt='Texto que describa la imagen')                            
 
-    .titulo-segundo.color-primario.mt-5
-      h2 1.2  Infraestructura y componentes del software para centro de datos
+    #t_1_2.titulo-segundo.color-primario.mt-5
+    h2 1.2  Infraestructura y componentes del software para centro de datos
     .row.justify-content-around.aling-items-center
       .col-lg-10.mb-lg-0.mt-lg-3
         figure.mb-5
@@ -250,7 +252,7 @@
     TabsC.color-primario
       .py-3.py-md-4(titulo="Escalabilidad")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema1/tema1-img-17.svg', alt='Texto que describa la imagen')
           .col-md-6
@@ -258,36 +260,35 @@
             p El funcionamiento de cada capa hace posible a los usuarios y proveedores de servicios, introducirse sin necesidad de causar alguna disrupción en toda la red. Incrementando las capacidades de transmitir el mensaje y el rendimiento de los componentes de la estructura física en cada capa. Estos modelos en conjunto con los métodos para identificar y localizar usuarios individuales dentro de una internetwork, permiten a Internet estar al tanto de la demanda de los usuarios.
       .py-3.py-md-4(titulo="Calidad de servicio")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema1/tema1-img-18.svg', alt='Texto que describa la imagen')
           .col-md-6
-            p Para que una red tenga buena calidad en su servicio, establece prioridades. En la actualidad internet proporciona un nivel considerable de tolerancia a fallas y escalabilidad para sus usuarios, sin embargo, las aplicaciones más recientes para los usuarios en internetworks crean mayores expectativas en cuestión de esperar mejor calidad en los futuros servicios entregados.  Los requisitos más nuevos son para dar soporte a la calidad del servicio sobre una red convergente, modificando la forma en que están diseñadas y en que se implementan las arquitecturas de red.
+            p.mt-3 Para que una red tenga buena calidad en su servicio, establece prioridades. En la actualidad internet proporciona un nivel considerable de tolerancia a fallas y escalabilidad para sus usuarios, sin embargo, las aplicaciones más recientes para los usuarios en internetworks crean mayores expectativas en cuestión de esperar mejor calidad en los futuros servicios entregados.  Los requisitos más nuevos son para dar soporte a la calidad del servicio sobre una red convergente, modificando la forma en que están diseñadas y en que se implementan las arquitecturas de red.
       .py-3.py-md-4(titulo="Seguridad")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema1/tema1-img-19.svg', alt='Texto que describa la imagen')
           .col-md-6
-            p.mb-2 La confidencialidad de datos es primordial para cualquier empresa, es por ello, que han ido cambiando los requerimientos de seguridad de la red. Internet ha tenido que evolucionar de ser una internetwork controlada sobre organizaciones educativas y gubernamentales, a un medio accesible para la transmisión de comunicaciones comerciales y personales. 
+            p.mb-2.mt-3 La confidencialidad de datos es primordial para cualquier empresa, es por ello, que han ido cambiando los requerimientos de seguridad de la red. Internet ha tenido que evolucionar de ser una internetwork controlada sobre organizaciones educativas y gubernamentales, a un medio accesible para la transmisión de comunicaciones comerciales y personales. 
             p La rápida expansión de las áreas de comunicación que no eran atendidas por las redes de datos tradicionales han ido aumentando la necesidad de incorporar mayor seguridad en la arquitectura de red, creando expectativas de privacidad y seguridad que se originan del uso de internetworks para el intercambio de información empresarial, crítica y confidencial.
       .py-3.py-md-4(titulo="Gestión de red")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0
             figure(data-aos="fade-up")
               img(src='@/assets/curso/temas/tema1/tema1-img-20.svg', alt='Texto que describa la imagen')
-          .col-md-6
+          .col-md-6.mt-3
             p Da como resultado las funciones para controlar, planificar, asignar, implementar y coordinar los recursos de la red de monitores. Es también, el sistema que incluye a las otras funciones de la red, las controla y gestiona con el objetivo de que los datos de acceso y los flujos de datos se gestionen a través de la red. Los mecanismos de administración de red incluyen la supervisión y recopilación de datos, la instrumentación para acceder, transmitir, actuar, y modificar los datos.
 
     h4.mt-5.mb-5 Base de datos
-    .row.justify-content-around.aling-items-center.mb-5
-      .col-lg-10.mb-lg-0
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img-21.svg')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-           p.mb-0 Las bases de datos son fundamentales a la hora de realizar un centro de datos, debido a que permite almacenar, analizar, enviar o recibir información que permita el manejo de gestionar toda la información de forma oportuna. 
+    .row.col-10.mt-5
+      .bloque-texto-g.color-secundario.p-3.p-sm-1.p-md-5        
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Las bases de datos son fundamentales a la hora de realizar un centro de datos, debido a que permite almacenar, analizar, enviar o recibir información que permita el manejo de gestionar toda la información de forma oportuna. 
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img-21.svg')})`}"
+        )             
 
 </template>
 

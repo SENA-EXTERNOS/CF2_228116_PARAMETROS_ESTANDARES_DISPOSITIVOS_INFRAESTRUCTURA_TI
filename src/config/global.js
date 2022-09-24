@@ -126,9 +126,10 @@ export default {
     },
     {
       tema: 'DOCUMENTO - VERSIÓN ACTUALIZADA DEL MODELO DE GESTIÓN IT4+',
-      referencia: 'DOCUMENTO - VERSIÓN ACTUALIZADA DEL MODELO DE GESTIÓN IT4+',
+      referencia:
+        '(S/f-b). Gov.co. Recuperado el 18 de agosto de 2022, de https://www.mintic.gov.co/arquitecturati/630/propertyvalues-8170_documento_pdf.pdf',
       tipo: 'Norma, artículo, manual.',
-      descarga:
+      link:
         'https://www.mintic.gov.co/arquitecturati/630/propertyvalues-8170_documento_pdf.pdf',
     },
     {
@@ -136,7 +137,7 @@ export default {
       referencia:
         '(S/f-c). Researchgate.net. Recuperado el 18 de agosto de 2022, de https://www.researchgate.net/publication/282611136_DATACENTER_-_UNA_MIRADA_POR_DENTRO',
       tipo: 'Norma, artículo, manual.',
-      descarga:
+      link:
         'https://www.researchgate.net/publication/282611136_DATACENTER_-_UNA_MIRADA_POR_DENTRO',
     },
   ],
