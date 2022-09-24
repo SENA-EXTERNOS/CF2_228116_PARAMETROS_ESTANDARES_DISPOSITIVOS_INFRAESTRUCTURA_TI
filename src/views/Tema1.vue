@@ -282,13 +282,16 @@
             p Da como resultado las funciones para controlar, planificar, asignar, implementar y coordinar los recursos de la red de monitores. Es también, el sistema que incluye a las otras funciones de la red, las controla y gestiona con el objetivo de que los datos de acceso y los flujos de datos se gestionen a través de la red. Los mecanismos de administración de red incluyen la supervisión y recopilación de datos, la instrumentación para acceder, transmitir, actuar, y modificar los datos.
 
     h4.mt-5.mb-5 Base de datos
-    .row.col-10.mt-5
-      .bloque-texto-g.color-secundario.p-3.p-sm-1.p-md-5        
-        .bloque-texto-g__texto.p-4
-          p.mb-0 Las bases de datos son fundamentales a la hora de realizar un centro de datos, debido a que permite almacenar, analizar, enviar o recibir información que permita el manejo de gestionar toda la información de forma oportuna. 
-        .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img-21.svg')})`}"
-        )             
+
+    .row.justify-content-around.aling-items-center.mt-5
+      .col-10
+        .bloque-texto-g.color-secundario.p-3.p-sm-1.p-md-5    
+          .bloque-texto-g__img.bloque-img-tema1(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img-21.svg')})`}"
+          )     
+          .bloque-texto-g__texto.bloque-texto-tema1.p-4
+            p.mb-0 Las bases de datos son fundamentales a la hora de realizar un centro de datos, debido a que permite almacenar, analizar, enviar o recibir información que permita el manejo de gestionar toda la información de forma oportuna. 
+            
 
 </template>
 
